@@ -1,0 +1,17 @@
+<div class="d-flex flex-column">
+  <div class="h4 mt-2 mb-4">Gimme something to calculate!</div>
+  <div class="d-flex flex-row">
+    <input
+      class="form-control form-control-lg"
+      type="text"
+      placeholder="Type your expression ..."
+      [(ngModel)]="expression"
+      (keydown.enter)="go()"
+    />
+    <button class="btn btn-primary ml-1" (click)="go()">Go!</button>
+  </div>
+</div>
+
+<div *ngIf="result" class="mt-4">
+  {{ expression }} = <strong>{{ result }}</strong>
+</div>
