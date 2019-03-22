@@ -24,7 +24,7 @@
     "bootstrap": "4.0.0",
     "core-js": "^2.5.4",
     "jquery": "^3.3.1",
-    "node-awesome-example-package": "git+https://github.com/zoeren/node-awesome-example-package.git",
+    "node-awesome-example-package": "git+https://github.com/zoeren/node-awesome-example-package.git#v0.0.1",
     "popper.js": "^1.12.9",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
